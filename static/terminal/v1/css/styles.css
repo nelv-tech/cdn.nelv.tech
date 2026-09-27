@@ -4,11 +4,9 @@ body {
     background-color: black;
     color: white;
 }
-.wf-terminal-root {
+.wf-terminal-root a{
     -webkit-user-select: none;
     user-select: none;
-}
-.wf-terminal-root a{
     background-color: black;
     color: white;
     text-decoration: none;
