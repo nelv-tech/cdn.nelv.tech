@@ -1,0 +1,71 @@
+@import "desktop.css";
+@import "mobile.css";
+body {
+    background-color: black;
+    color: white;
+}
+.wf-terminal-root {
+    -webkit-user-select: none;
+    user-select: none;
+}
+.wf-terminal-root a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+@media (hover: hover){
+    .wf-terminal-root a:hover {
+        background-color: white;
+        color: black;
+    }
+}
+#wf-terminal-header-main { 
+    position: sticky;
+    z-index: 99;
+}
+#wf-terminal-header {
+    background-color: black;
+    position: sticky;
+    display: inline-flex;
+    justify-content: space-between;
+    border-bottom: solid white 0.8vh;
+    z-index: 999;
+    width: 100%;
+}
+#wf-terminal-header a{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    -webkit-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    padding: 0;
+}
+@media (hover: hover){
+    #wf-terminal-header span a:hover {
+        background-color: white;
+        color: black;
+    }
+}
+#wf-burger-menu {
+    background-color: black;
+    display: grid;
+    position: absolute;
+    justify-items: center;
+    border: solid white 0.8vh;
+    border-top: none;
+    transition: transform 0.5s ease;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, -150%, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+#wf-burger-menu a {
+    color: white;
+    text-decoration: none;
+}
+#wf-burger-menu.open {
+    transform: translateY(0);
+    opacity: 1;
+}

@@ -1,0 +1,18 @@
+@media(pointer: coarse){
+    #waterfall-footer {
+            padding: 24px 0;
+            margin: 0;
+        }
+    @media (width <= 600px){ 
+        #waterfall-footer a {
+            padding: 8px 16px;
+            font-size: 20px;
+        }
+    }
+    @media (width > 600px){
+        #waterfall-footer a {
+            padding: 4px 8px;
+            font-size: 24px;
+        }
+    }
+}

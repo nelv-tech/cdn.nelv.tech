@@ -1,0 +1,76 @@
+@media(pointer: coarse){
+    #wf-terminal-header span {
+        display: none;
+    }
+    .wf-terminal-root {
+        padding: 16px 32px;
+    }
+    .wf-terminal-root h1 {
+        font-size: 48px;
+        margin-bottom: 16px;
+    }
+    .wf-terminal-root p {
+        font-size: 32px;
+        line-height: 1.6;
+    }
+    .wf-terminal-root a {
+        font-size: 18px;
+    }
+    #wf-burger {
+        display: block !important;
+    }
+    @media (width <= 600px){
+        #wf-terminal-header {
+            padding: 2vh 4vw;
+        }
+        #wf-terminal-header h1 {
+            font-size: 8vw;
+            margin: 0;
+        }
+        #wf-burger {
+            font-size: 8vw;
+        }
+        #wf-burger-menu {
+            gap: 3.2vh;
+            left: 0;
+            right: 0;
+            top: 100%;
+            z-index: 1;
+            padding: 2vh 4vw;
+        }  
+        #wf-burger-menu a {
+            font-size: 4.2vw;
+        }
+    }
+    @media (width > 600px){
+        #wf-terminal-header {
+            padding: 2vh 2vw;
+        }
+        #wf-terminal-header span {
+            gap: 2vw;
+        }
+        #wf-terminal-header h1 {
+            font-size: 4vw;
+            margin: 0;
+        }
+        #wf-terminal-header span a{
+            font-size: 1.6vw;
+            padding: 1vh 1vw;
+            margin:auto 0;
+        }
+        #wf-burger {
+            font-size: 4vw;
+        }
+        #wf-burger-menu {
+            gap: 3.2vh;
+            left: 0;
+            right: 0;
+            top: 100%;
+            z-index: 1;
+            padding: 2vh 4vw;
+        }
+        #wf-burger-menu a {
+            font-size: 2vw;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+@media(pointer: fine){
+    .wf-terminal-root {
+        padding: 64px 32px;
+    }
+    .wf-terminal-root h1 { 
+        font-size: 48px;
+        margin-top: 0;
+    }
+    .wf-terminal-root p {
+        font-size: 32px;
+        line-height: 1.6;
+        margin-bottom: 0;
+    }
+    .wf-terminal-root a{
+        font-size: 32px;
+        padding: 4px 8px;
+        margin: 0;
+    }
+    #wf-terminal-header {
+        padding: 2vh 2vw;
+    }
+    #wf-terminal-header span {
+        display: flex;
+        gap: 2vw;
+    }
+    #wf-terminal-header h1 {
+        font-size: 2.4vw;
+        margin: 0;
+    }
+
+    #wf-terminal-header span a{
+        font-size: 1.6vw;
+        padding: 1vh 1vw;
+        margin:auto 0;
+    }
+    #wf-burger, #wf-burger-menu {
+        display: none !important;
+    }
+}

@@ -1,0 +1,16 @@
+@import url("https://cdn.nelv.tech/static/fonts/gravity/font.css");
+@import "mobile.css";
+@import "desktop.css";
+
+#waterfall-footer {
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+#waterfall-footer a{
+    font-family: "Gravity Light", Arial, sans-serif;
+    border: 1px solid black;
+    box-shadow: 0 0 4px rgba(0,0,0,0.3);
+    font-weight: 200;
+}

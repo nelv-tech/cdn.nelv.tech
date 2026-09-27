@@ -1,0 +1,11 @@
+.wf-reveal, .wf-reveal_dy {
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+}
+.wf-reveal_dy {
+    transform: translateY(30px);
+}
+.wf-reveal.active, .wf-reveal_dy.active {
+    opacity: 1;
+    transform: translateY(0);
+}
