@@ -1,11 +1,11 @@
-.wf-reveal, .wf-reveal_dy {
+.wf-reveal, .wf-reveal-dy {
     opacity: 0;
     transition: opacity 1s ease, transform 1s ease;
 }
-.wf-reveal_dy {
+.wf-reveal-dy {
     transform: translateY(30px);
 }
-.wf-reveal.active, .wf-reveal_dy.active {
+.wf-reveal.active, .wf-reveal-dy.active {
     opacity: 1;
     transform: translateY(0);
 }
