@@ -15,6 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     };
     const observer = new IntersectionObserver(revealCallback, observerOptions);
-    const revealElements = document.querySelectorAll(".wf-reveal, .wf-reveal_dy");
+    const revealElements = document.querySelectorAll(".wf-reveal, .wf-reveal-dy");
     revealElements.forEach(element => observer.observe(element));
 });
