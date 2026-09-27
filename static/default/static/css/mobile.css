@@ -1,0 +1,4 @@
+@media(pointer: coarse){
+	@media (width <= 600px){}
+	@media (width > 600px){}
+}

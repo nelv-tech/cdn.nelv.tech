@@ -1,0 +1,9 @@
+User-agent: *
+
+Disallow: /admin/
+
+Allow: /
+Allow: /static/
+Allow: /projects/
+
+Sitemap: https://real_company.org/sitemap.xml
